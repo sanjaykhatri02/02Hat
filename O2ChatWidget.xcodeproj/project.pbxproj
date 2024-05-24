@@ -137,6 +137,8 @@
 		04410DBD2BF220550015B441 /* WebResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04410DBC2BF220550015B441 /* WebResponse.swift */; };
 		04410DBF2BF2269D0015B441 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04410DBE2BF2269D0015B441 /* Singleton.swift */; };
 		04738D4B2BF345A700A529B5 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04738D4A2BF345A700A529B5 /* Notification.swift */; };
+		04DF9C982C009E5C0091C341 /* LICENSE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF9C972C009E5C0091C341 /* LICENSE.swift */; };
+		04DF9C9A2C009EF60091C341 /* LICENSE.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 04DF9C992C009EF50091C341 /* LICENSE.rtf */; };
 		1737BDAC4FDA0DF8A3FAB00A /* Pods_O2ChatWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B91A19BCB80BD97B9D1A4F /* Pods_O2ChatWidget.framework */; };
 		BCA54E5F65C989B38DAFCBB8 /* Pods_O2ChatWidget_O2ChatWidgetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E46F4B9C605A7A53CA382F /* Pods_O2ChatWidget_O2ChatWidgetUITests.framework */; };
 		CBB8A30F288BD0AC9C7EF92A /* Pods_O2ChatWidgetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF0974BCCA181A7A1FD9427 /* Pods_O2ChatWidgetTests.framework */; };
@@ -294,6 +296,8 @@
 		04410DBC2BF220550015B441 /* WebResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebResponse.swift; sourceTree = "<group>"; };
 		04410DBE2BF2269D0015B441 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		04738D4A2BF345A700A529B5 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		04DF9C972C009E5C0091C341 /* LICENSE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LICENSE.swift; sourceTree = "<group>"; };
+		04DF9C992C009EF50091C341 /* LICENSE.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = LICENSE.rtf; sourceTree = "<group>"; };
 		24B91A19BCB80BD97B9D1A4F /* Pods_O2ChatWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_O2ChatWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3031A2D1A0B4D8082C3843F3 /* Pods-O2ChatWidgetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-O2ChatWidgetTests.debug.xcconfig"; path = "Target Support Files/Pods-O2ChatWidgetTests/Pods-O2ChatWidgetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		41B1F66E640D179D4AB7CB66 /* Pods-O2ChatWidget-O2ChatWidgetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-O2ChatWidget-O2ChatWidgetUITests.debug.xcconfig"; path = "Target Support Files/Pods-O2ChatWidget-O2ChatWidgetUITests/Pods-O2ChatWidget-O2ChatWidgetUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -369,7 +373,9 @@
 				04410C652BF1E26E0015B441 /* Main.storyboard */,
 				04410C682BF1E26F0015B441 /* Assets.xcassets */,
 				04410C6A2BF1E26F0015B441 /* LaunchScreen.storyboard */,
+				04DF9C992C009EF50091C341 /* LICENSE.rtf */,
 				04410C6D2BF1E26F0015B441 /* Info.plist */,
+				04DF9C972C009E5C0091C341 /* LICENSE.swift */,
 			);
 			path = O2ChatWidget;
 			sourceTree = "<group>";
@@ -955,6 +961,7 @@
 				04410D212BF1F8550015B441 /* TopicsCollectionViewCell.xib in Resources */,
 				04410D1E2BF1F8550015B441 /* MultiImageCVCell.xib in Resources */,
 				04410D4C2BF1F8550015B441 /* OpenSans-Regular.ttf in Resources */,
+				04DF9C9A2C009EF60091C341 /* LICENSE.rtf in Resources */,
 				04410D2F2BF1F8550015B441 /* ConversationCellImageNoLoginUser.xib in Resources */,
 				04410D3B2BF1F8550015B441 /* font_extra_light.ttf in Resources */,
 				04410D472BF1F8550015B441 /* OpenSans-Bold.ttf in Resources */,
@@ -1172,6 +1179,7 @@
 				04410C602BF1E26E0015B441 /* AppDelegate.swift in Sources */,
 				04410D182BF1F8550015B441 /* RateUsVC.swift in Sources */,
 				04410D322BF1F8550015B441 /* UploadFilesRequest.swift in Sources */,
+				04DF9C982C009E5C0091C341 /* LICENSE.swift in Sources */,
 				04410D982BF1FCB70015B441 /* SampleNotificationDelegate.swift in Sources */,
 				04410D002BF1F8550015B441 /* ResolveFeedBackRequest.swift in Sources */,
 				04410DA72BF1FCB70015B441 /* Reachability.swift in Sources */,
